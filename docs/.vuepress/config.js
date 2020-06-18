@@ -36,7 +36,9 @@ sidebar: [
     title: '安裝',
     // collapsable: false,
     children: [
-      '/chapter2/']
+      '/chapter2/',
+      '/chapter2/hello',
+    ]
   },         
         
 ]
