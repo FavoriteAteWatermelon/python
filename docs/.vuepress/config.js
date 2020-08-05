@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'Python3',
+  title: '公务员',
   // description: 'Hello, Object-c',
   head: [
       ['link', {
           rel: 'icon',
-          href: `/favicon.ico`
+          href: './favicon.ico'
       }]
   ],
   dest: './docs/.vuepress/dist',
@@ -24,23 +24,13 @@ module.exports = {
 // sidebarDepth: 2,
 sidebar: [
   {
-    title: '雑記',
+    title: '行测',
     // collapsable: false,
     children: [
-      '/chapter1/',
-      '/chapter1/apply',
-      '/chapter1/word']
-  },         
-        
-  {
-    title: '安裝',
-    // collapsable: false,
-    children: [
-      '/chapter2/',
-      '/chapter2/hello',
+      '/行测/'
     ]
   },         
-        
+      
 ]
 },
 
